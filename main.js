@@ -5,7 +5,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { getFresnelMat  } from "./getFresnelMat.js";
 import getStarfield  from "./getStarfield.js";
 //create scene and camera:
-const speed = 0.002;
+const speed = 0.001;
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
